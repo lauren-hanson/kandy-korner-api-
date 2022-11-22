@@ -1,0 +1,585 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Steve Harrington",
+      "email": "steve@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Eleven",
+      "email": "11@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Max Mayfield",
+      "email": "max@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "name": "Billy Hargrove",
+      "email": "billy@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "name": "Eddie Munson",
+      "email": "eddie@isthebest.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "name": "Will Byers",
+      "email": "whereiswill@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "name": "Robin Buckley",
+      "email": "robin@hotmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 8,
+      "name": "Dustin Henderson",
+      "email": "dustin@aol.com",
+      "isStaff": false
+    },
+    {
+      "id": 9,
+      "name": "Hopper",
+      "email": "jim@yahoo.com",
+      "isStaff": true
+    },
+    {
+      "id": 10,
+      "name": "Lucas Sinclair",
+      "email": "lucas@aol.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 2,
+      "loyaltyNumber": 12345
+    },
+    {
+      "id": 1,
+      "userId": 4,
+      "loyaltyNumber": 23451
+    },
+    {
+      "id": 1,
+      "userId": 6,
+      "loyaltyNumber": 34512
+    },
+    {
+      "id": 1,
+      "userId": 8,
+      "loyaltyNumber": 45123
+    },
+    {
+      "id": 1,
+      "userId": 10,
+      "loyaltyNumber": 51234
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 1,
+      "locationId": 1,
+      "startDate": "10-05-22",
+      "payRate": 17.5
+    },
+    {
+      "id": 1,
+      "userId": 3,
+      "locationId": 2,
+      "startDate": "04-12-21",
+      "payRate": 17.25
+    },
+    {
+      "id": 1,
+      "userId": 5,
+      "locationId": 3,
+      "startDate": "07-24-22",
+      "payRate": 18.75
+    },
+    {
+      "id": 1,
+      "userId": 7,
+      "locationId": 2,
+      "startDate": "05-05-22",
+      "payRate": 19.25
+    },
+    {
+      "id": 1,
+      "userId": 9,
+      "locationId": 1,
+      "startDate": "11-07-20",
+      "payRate": 10.15
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Creel House",
+      "address": "906 E 2nd Avenue Rome, Georgia 30161",
+      "sqFootage": "22000 square feet"
+    },
+    {
+      "id": 2,
+      "name": "Hawkins Middle School",
+      "address": "109 S Lee Street Stockbridge, Georgia 30281",
+      "sqFootage": "10000 square feet"
+    },
+    {
+      "id": 3,
+      "name": "Bradley's Big Guy",
+      "address": "506 Center Street Palmetto, Georgia 30268",
+      "sqFootage": "12000 square feet"
+    }
+  ],
+  "productLocation": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "locationId": 3
+    },
+    {
+      "id": 6,
+      "productId": 2,
+      "locationId": 4
+    },
+    {
+      "id": 7,
+      "productId": 3,
+      "locationId": 4
+    },
+    {
+      "id": 8,
+      "productId": 3,
+      "locationId": 5
+    },
+    {
+      "id": 9,
+      "productId": 3,
+      "locationId": 3
+    },
+    {
+      "id": 10,
+      "productId": 4,
+      "locationId": 5
+    },
+    {
+      "id": 11,
+      "productId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 12,
+      "productId": 4,
+      "locationId": 4
+    },
+    {
+      "id": 13,
+      "productId": 5,
+      "locationId": 1
+    },
+    {
+      "id": 14,
+      "productId": 5,
+      "locationId": 3
+    },
+    {
+      "id": 15,
+      "productId": 5,
+      "locationId": 4
+    },
+    {
+      "id": 16,
+      "productId": 6,
+      "locationId": 1
+    },
+    {
+      "id": 17,
+      "productId": 6,
+      "locationId": 2
+    },
+    {
+      "id": 18,
+      "productId": 6,
+      "locationId": 5
+    },
+    {
+      "id": 19,
+      "productId": 7,
+      "locationId": 5
+    },
+    {
+      "id": 20,
+      "productId": 7,
+      "locationId": 3
+    },
+    {
+      "id": 21,
+      "productId": 7,
+      "locationId": 4
+    },
+    {
+      "id": 22,
+      "productId": 8,
+      "locationId": 2
+    },
+    {
+      "id": 23,
+      "productId": 8,
+      "locationId": 4
+    },
+    {
+      "id": 24,
+      "productId": 8,
+      "locationId": 1
+    },
+    {
+      "id": 25,
+      "productId": 9,
+      "locationId": 3
+    },
+    {
+      "id": 26,
+      "productId": 9,
+      "locationId": 5
+    },
+    {
+      "id": 27,
+      "productId": 9,
+      "locationId": 2
+    },
+    {
+      "id": 28,
+      "productId": 10,
+      "locationId": 2
+    },
+    {
+      "id": 29,
+      "productId": 10,
+      "locationId": 3
+    },
+    {
+      "id": 30,
+      "productId": 10,
+      "locationId": 1
+    },
+    {
+      "id": 31,
+      "productId": 11,
+      "locationId": 5
+    },
+    {
+      "id": 32,
+      "productId": 11,
+      "locationId": 3
+    },
+    {
+      "id": 33,
+      "productId": 11,
+      "locationId": 2
+    },
+    {
+      "id": 34,
+      "productId": 12,
+      "locationId": 4
+    },
+    {
+      "id": 35,
+      "productId": 12,
+      "locationId": 5
+    },
+    {
+      "id": 36,
+      "productId": 12,
+      "locationId": 1
+    },
+    {
+      "id": 37,
+      "productId": 13,
+      "locationId": 2
+    },
+    {
+      "id": 38,
+      "productId": 13,
+      "locationId": 3
+    },
+    {
+      "id": 39,
+      "productId": 13,
+      "locationId": 4
+    },
+    {
+      "id": 40,
+      "productId": 14,
+      "locationId": 3
+    },
+    {
+      "id": 41,
+      "productId": 14,
+      "locationId": 1
+    },
+    {
+      "id": 42,
+      "productId": 14,
+      "locationId": 2
+    },
+    {
+      "id": 43,
+      "productId": 15,
+      "locationId": 2
+    },
+    {
+      "id": 44,
+      "productId": 15,
+      "locationId": 4
+    },
+    {
+      "id": 45,
+      "productId": 15,
+      "locationId": 3
+    },
+    {
+      "id": 46,
+      "productId": 16,
+      "locationId": 5
+    },
+    {
+      "id": 47,
+      "productId": 16,
+      "locationId": 1
+    },
+    {
+      "id": 48,
+      "productId": 16,
+      "locationId": 2
+    },
+    {
+      "id": 49,
+      "productId": 17,
+      "locationId": 4
+    },
+    {
+      "id": 50,
+      "productId": 17,
+      "locationId": 3
+    },
+    {
+      "id": 51,
+      "productId": 17,
+      "locationId": 1
+    },
+    {
+      "id": 52,
+      "productId": 18,
+      "locationId": 1
+    },
+    {
+      "id": 53,
+      "productId": 18,
+      "locationId": 3
+    },
+    {
+      "id": 54,
+      "productId": 18,
+      "locationId": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Fudge",
+      "productTypeId": 1,
+      "price": 2,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXvG1ZjuBALsbW2_TjAF55fw4jwBxOAFvIAA&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Bark",
+      "productTypeId": 1,
+      "price": 4,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY53nThRhfVUqhPvoeoUWh6h9qjCYP6j_rhg&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate Covered Peanuts",
+      "productTypeId": 1,
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVjkpa-UTyZLj5h9mVAGB3vgoJjX9PZi4qsg&usqp=CAU"
+    },
+    {
+      "id": 4,
+      "name": "Salt Water Taffy",
+      "productTypeId": 2,
+      "price": 3,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmArCFvL-VWMaDGNd0xpk4sbwJKY1Mu-8esw&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "name": "Laffy Taffy",
+      "productTypeId": 2,
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_edZE_Jv1DHY8jKjcMCWh8awm2pUdFMbfTw&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "Toblerone",
+      "productTypeId": 3,
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbtttLHNFcdUY6eHQS2U9m_MNK5x-3AgxRpQ&usqp=CAU"
+    },
+    {
+      "id": 7,
+      "name": "Almond Joy",
+      "productTypeId": 3,
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTLIMczj8XD6fQ7fpNRktZbeSY9SAYKujsGw&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "name": "Snickers",
+      "productTypeId": 3,
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM_e341JNtSizLtY17MKhk69P7kipnvRlvvA&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "name": "Milky Way",
+      "productTypeId": 3,
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXAsdjf34j1-VaRXwvGybhmU6iipB5-LP8fQ&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "name": "Jolly Ranchers",
+      "productTypeId": 4,
+      "price": 9,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MeQZK2ZHwph-ZEpMtR2FgZyhUOp6JD_c8A&usqp=CAU"
+    },
+    {
+      "id": 11,
+      "name": "Lollipop",
+      "productTypeId": 4,
+      "price": 2,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAeLDEiL43Lktrl3gLuT9-CVSVmKWcRwU7cg&usqp=CAU"
+    },
+    {
+      "id": 12,
+      "name": "Jaw Breaker",
+      "productTypeId": 4,
+      "price": 4,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIgEOd2hiJWMqAT2RCczqa-flfQzcSPiITwo8oR8anSFPR7tYUwWqirwBozbUqpU6i7Ms&usqp=CAU"
+    },
+    {
+      "id": 13,
+      "name": "Gummy Bears",
+      "productTypeId": 5,
+      "price": 4,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlRTdT4PBF_xx9lDIERVaOhGcKBdnlN_JG9A&usqp=CAU"
+    },
+    {
+      "id": 14,
+      "name": "Hi-Chew",
+      "productTypeId": 6,
+      "price": 3,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYmWt5nmEBg3hs2dtZcs653boye9ZrGhjvSg&usqp=CAU"
+    },
+    {
+      "id": 15,
+      "name": "Matcha Green Tea Kit-Kat",
+      "productTypeId": 6,
+      "price": 9,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeINDxCzgfgqaLTGY6w-e04GqQJWdCB4oJdA&usqp=CAU"
+    },
+    {
+      "id": 16,
+      "name": "Hello Panda",
+      "productTypeId": 6,
+      "price": 8,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxejxDdkr_tkLN4K42y7cgiW-ExpWH7NO_w&usqp=CAU"
+    },
+    {
+      "id": 17,
+      "name": "York Peppermint Patties",
+      "productTypeId": 7,
+      "price": 4,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZeGfd0gpMi2ICrmvGzVMhUtB10sz8c82rqdswhyDqi0atSXcj0IjqJOsMUL0GQpObV4&usqp=CAU"
+    },
+    {
+      "id": 18,
+      "name": "Junior Mints",
+      "productTypeId": 7,
+      "price": 6,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpwbgYEzOKrHkghI4v-8_bmInEPkLLGXfG-A&usqp=CAU"
+    },
+    {
+      "name": "Oreos",
+      "productTypeId": 1,
+      "price": "15",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FqQzreFOzRR6TW1dREtvieNQ7FnkAcdi-X5N7dch7ebYtwVOoT5IOv56cuJXw-lB17E&usqp=CAU",
+      "id": 20
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "Chocolates"
+    },
+    {
+      "id": 2,
+      "category": "Taffy"
+    },
+    {
+      "id": 3,
+      "category": "Candy Bars"
+    },
+    {
+      "id": 4,
+      "category": "Hard Candy"
+    },
+    {
+      "id": 5,
+      "category": "Gummies"
+    },
+    {
+      "id": 6,
+      "category": "Japanese Candy"
+    },
+    {
+      "id": 7,
+      "category": "Mints"
+    }
+  ]
+}
